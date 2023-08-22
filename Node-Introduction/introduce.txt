@@ -1,0 +1,42 @@
+friendly: Imagine Node.js as a friendly, magical robot that can understand and execute commands written in a special language that only computers understand. This robot is really good at doing tasks for you, like solving math problems, telling stories, and even drawing pictures!
+But what makes Node.js extra special is that it can also talk to the internet and fetch information from faraway places like a superhero. It can show you cool videos, games, and pictures from websites.
+Now, remember how you love playing with your building blocks and stacking them together to make awesome structures? Node.js is like a super-powered building block for grown-ups who want to create amazing things on the computer! It lets programmers build all sorts of fun websites, games, and apps, just like you build your towers with blocks.
+Oh, and you know how when you play with your friends, sometimes you need to share toys or drawings with them? Node.js can help people share their creations with each other on the internet so that friends from all over the world can see and use what they've made.
+In simple words, Node.js is like a clever robot friend that helps grown-ups create exciting stuff on the computer, share it with others, and do cool things with the internet. It's like magic for making awesome stuff happen online!
+
+High definition: Node.js is an open-source, server-side JavaScript runtime environment built on Chrome's V8 JavaScript engine. As an adult, 
+you might be familiar with JavaScript, which is a programming language used to create interactive elements on websites. Well, Node.js takes 
+JavaScript to the server-side, meaning it allows you to run JavaScript code on the server rather than just in the browser.
+So, imagine Node.js as a powerful tool that empowers developers to build scalable, fast, and efficient applications for the web and beyond. 
+It's like a versatile Swiss Army knife for server-side development, providing a lot of useful features and capabilities.
+What makes Node.js particularly appealing to adults in the tech world is its non-blocking, event-driven architecture. 
+This means it can handle multiple tasks simultaneously without waiting for each task to finish before moving on to the next one. 
+It's like a multitasking expert, ensuring that applications remain responsive and performant, even when handling a lot of requests.
+Node.js also has an extensive package manager called "npm," which stands for Node Package Manager. 
+It's like a massive online store filled with pre-built modules and libraries that developers can use to add specific functionalities to their projects. 
+This saves a lot of time and effort since developers don't have to reinvent the wheel for every task.
+As an adult, you might appreciate the vast community support behind Node.js. 
+It has a large and active community of developers who contribute to its growth and improvement continuously. 
+This means there are always new ideas, updates, and best practices to explore, making it easier to stay up-to-date with the latest trends and technologies.
+Moreover, Node.js isn't limited to just web applications. 
+Thanks to its flexibility, you can use it for various purposes like building real-time applications, APIs, microservices, and even desktop applications.
+In summary, Node.js is a mature and sophisticated technology that brings the power of JavaScript to the server-side, allowing developers to create robust and efficient applications. 
+Its event-driven, non-blocking architecture, extensive package manager, and supportive community make it a go-to choice for many adult developers looking to build cutting-edge, scalable software solutions.
+
+These are some method which we use in node:
+
+1. fs.readFile(path, options, callback): This method reads data from a file specified by the path and options. When the reading is complete, it invokes the callback function with any error that occurred as the first argument and the data read as the second argument.
+
+2. fs.writeFile(file, data, options, callback): This method writes data to a file specified by the file parameter. The data provided will be written to the file, and the callback function is called when the writing is complete or if an error occurs.
+
+3. http.createServer([options], requestListener): This method creates an HTTP server that listens for incoming requests. The requestListener is a function that gets called whenever a request is made to the server. It handles the incoming request and provides a response back to the client.
+
+4. http.request(options, callback): This method is used to send an HTTP request to a specified options URL. It allows you to make requests to other servers and retrieve data or interact with remote resources.
+
+5. path.join([...paths]): This method joins multiple path segments together, using the platform-specific separator (e.g., a slash in Unix-based systems or a backslash in Windows). It is useful for constructing file paths in a cross-platform manner.
+
+6. os.cpus(): This method returns information about the computer's CPUs, such as the number of cores and speed. It provides insights into the machine's processing capabilities.
+
+7. crypto.randomBytes(size, callback): This method generates cryptographically strong random data of the specified size. It's commonly used to create secure tokens or random keys.
+
+8. util.promisify(original): This method converts traditional callback-based functions into functions that return Promises. It simplifies working with asynchronous code by allowing the use of async/await syntax.
